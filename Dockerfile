@@ -8,4 +8,4 @@ RUN echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 RUN /opt/chef/embedded/bin/gem install berkshelf
 
 VOLUME ["/chef-kitchen"]
-WORKDIR "/chef-kitchen"
+WORKDIR /chef-kitchen
